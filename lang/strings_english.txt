@@ -1,0 +1,2 @@
+<?php
+$s_UserGroupManagementDescription = "Create Group for User Management";

@@ -1,0 +1,5 @@
+<message name="mc_plugin_UserGroupManagement_listRequest">
+  <part name="username" type="xsd:string" />
+  <part name="password" type="xsd:string" /></message>
+<message name="mc_plugin_UserGroupManagement_listResponse">
+  <part name="return" type="tns:UserGroupManagementDataArray" /></message>

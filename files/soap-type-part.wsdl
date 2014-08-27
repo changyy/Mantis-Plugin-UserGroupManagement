@@ -1,0 +1,18 @@
+ <xsd:complexType name="UserGroupManagementData">
+  <xsd:all>
+   <xsd:element name="group_id" type="xsd:integer" minOccurs="0"/>
+   <xsd:element name="group_name" type="xsd:string" minOccurs="0"/>
+   <xsd:element name="group_description" type="xsd:string" minOccurs="0"/>
+   <xsd:element name="id" type="xsd:integer" minOccurs="0"/>
+   <xsd:element name="name" type="xsd:string" minOccurs="0"/>
+   <xsd:element name="real_name" type="xsd:string" minOccurs="0"/>
+   <xsd:element name="email" type="xsd:string" minOccurs="0"/>
+  </xsd:all>
+ </xsd:complexType>
+ <xsd:complexType name="UserGroupManagementDataArray">
+  <xsd:complexContent>
+   <xsd:restriction base="SOAP-ENC:Array">
+    <xsd:attribute ref="SOAP-ENC:arrayType" wsdl:arrayType="tns:UserGroupManagementData[]"/>
+   </xsd:restriction>
+  </xsd:complexContent>
+ </xsd:complexType>
