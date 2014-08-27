@@ -1,0 +1,2 @@
+Mantis-Plugin-UserGroupManagement
+=================================
